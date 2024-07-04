@@ -1,0 +1,108 @@
+{
+    // Editor    
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.renderLineHighlight": "none",
+    "editor.lineHeight": 1.8,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.autoClosingComments": "never",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.parameterHints.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.cursorStyle": "underline",
+
+    // Workbench
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Min Dark",
+    "workbench.editor.labelFormat": "short",
+    "workbench.layoutControl.enabled": false,
+    "workbench.productIconTheme": "fluent-icons",
+    
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*,tsconfig*, vite*, pnpm*, package-lock*, bun.lockb",
+        "tailwind.config.js": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*",
+    },
+    
+    // Terminal
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+    // Files
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+      ".env.*": "dotenv",
+      ".prettierrc": "json",
+      "*.css": "css"
+    },
+    
+    // Window
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "visible",
+    "window.newWindowDimensions": "maximized",
+    "window.commandCenter": false,
+    
+    // Symbols
+    "symbols.hidesExplorerArrows": false,
+    "symbols.folders.associations": {
+        "pages": "folder-orange-code",
+        "hooks": "folder-middleware",
+        "services": "folder-middleware",
+        "tests": "folder-red",
+        "private": "folder-auth"
+    },
+    "symbols.files.associations": {
+        "*.module.ts": "nest",
+        "*.guard.ts": "typescript",
+        "*.spec.ts": "ts-test",
+        "*.e2e-spec.ts": "ts-test",
+        "vitest.config.e2e.ts": "vite",
+        ".env.example": "gear",
+        "*.txt": "text",
+        "*.ebnf": "brackets-gray"
+    },
+
+    // Extensions
+    "extensions.ignoreRecommendations": true,
+
+    // Chat
+    "chat.editor.wordWrap": "on",
+    
+    // APC
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.font.family": "Inter",
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-body": "padding: 8px 0",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+    },
+
+    // Others
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.ignoreMissingGitWarning": true,
+}
