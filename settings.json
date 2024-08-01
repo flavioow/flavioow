@@ -3,6 +3,11 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
+    "editor.tabCompletion": "on",
+    "editor.tabMovesFocus": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
     "editor.fontSize": 14,
     "editor.renderLineHighlight": "none",
     "editor.lineHeight": 1.8,
@@ -15,6 +20,9 @@
     "editor.parameterHints.enabled": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.cursorStyle": "underline",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
 
     // Workbench
     "workbench.iconTheme": "symbols",
@@ -35,11 +43,10 @@
     },
     
     // Terminal
+    "terminal.integrated.profiles.windows":{"Git Bash":{"path":"C:\\Program Files\\Git\\bin\\bash.exe"},  },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-
-    // Files
-    "files.autoSave": "afterDelay",
     "files.associations": {
       ".env.*": "dotenv",
       ".prettierrc": "json",
@@ -102,7 +109,17 @@
 
     // Others
     "breadcrumbs.enabled": false,
-    "explorer.confirmDelete": false,
+    "explorer.confirmDelete": true,
     "explorer.confirmDragAndDrop": false,
     "git.ignoreMissingGitWarning": true,
+    "keybindings": [
+        {
+            "key": "tab",
+            "command": "editor.action.indentLines",
+            "when": "editorTextFocus && !editorReadonly"
+        }
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "files.autoSave": "afterDelay",
+    "typescript.updateImportsOnFileMove.enabled": "never",
 }
