@@ -1,0 +1,105 @@
+{
+    // SCOPE: HTML, PHP
+    "Picture": {
+        "scope": "html,php",
+        "prefix": "pic",
+        "body": [
+            "<picture>",
+            "    <source src=\"$1\"> type=\"${3|image/jpeg, image/png, image/webp, image/gif, audio/mpeg, audio/ogg, audio/wav, audio/flac, video/mp4, video/ogg, video/webm, video/avi, video/mkv|}\"",
+            "    <img",
+            "        src=\"$1\"",
+            "        alt=\"\"",
+            "        title=\"\"",
+            "        loading=\"${2|lazy, eager|}\">",
+            "        decoding=\"${4|async, sync, auto|}\"",
+            "        fetchpriority=\"${5|high, low, auto|}\"",
+            "</picture>",
+        ],
+        "description": "Improved image rendering"
+    },
+
+
+    // SCOPE: CSS, SCSS, SASS
+    "Reset": {
+        "scope": "css,scss,sass",
+        "prefix": "res",
+        "body": [
+            "@charset \"UTF-8\";",
+            "@import url('https://fh-shadow.github.io/DevImports/Styles/CSS/reset.css');",
+            ""
+        ],
+        "description": "Reset CSS"
+    },
+
+    "Media Query": {
+        "scope": "css,scss,sass",
+        "prefix": "media",
+        "body": [
+            "@media screen and (max-width: ${1|640, 768, 1024, 1280, 1536|}px) {",
+            "    ",
+            "}"
+        ],
+        "description": "Create a media query"
+    },
+    "Font Face": {
+        "scope": "css,scss,sass",
+        "prefix": "face",
+        "body": [
+            "@font-face {",
+            "    font-family: '${1:name}';",
+            "    src: url('$2') format('${3|truetype, opentype, woff, woff2, svg, color-SVG, color-COLRv1|}');",
+            "}"
+        ],
+        "description": "Create a font face"
+    },
+    "Keyframes": {
+        "scope": "css,scss,sass",
+        "prefix": "frame,key",
+        "body": [
+            "@keyframes ${1:name} {",
+            "    from {",
+            "        ",
+            "    }",
+            "    to {",
+            "        ",
+            "    }",
+            "}"
+        ],
+        "description": "Create a keyframe"
+  },
+
+
+    // SCOPE: JAVASCRIPT, TYPESCRIPT, REACT
+    "Function": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "func",
+        "body": [
+            "function ${1:Name}() {",
+            "    return $2",
+            "}"
+        ],
+        "description": "Create a function"
+    },
+
+    "Export Function": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "efunc",
+        "body": [
+            "export function ${1:Name}() {",
+            "    return $2",
+            "}"
+        ],
+        "description": "Create a exportable function"
+    },
+
+    "Export Default Function": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": "edef",
+        "body": [
+            "export default function ${1:Name}() {",
+            "    return $2",
+            "}"
+        ],
+        "description": "Create a default exportable function"
+    }
+}
