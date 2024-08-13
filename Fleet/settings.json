@@ -1,0 +1,21 @@
+{
+    "terminal.profiles": [
+        {
+            "program": "C:/Program Files/Git/usr/bin/bash.exe",
+            "args": [],
+            "name": "Git Bash"
+        }
+    ],
+    "theme": "dark",
+    "keymap": "vscode",
+    "autoSave": "AfterDelay",
+    "editor.fontSize": 14.0,
+    "editor.softWrapEnabled": true,
+    "editor.autoDetectIndentation": false,
+    "editor.caretShape": "Underline",
+    "createScratchOnNewFile": false,
+    "terminal.fontFamily": "JetBrainsMono NF",
+    "terminal.fontSize": 14.0,
+    "terminal.caretShape": "Block",
+    "collaboration.displayName": "Flavi.oow"
+}
