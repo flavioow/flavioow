@@ -30,7 +30,7 @@
     "workbench.editor.labelFormat": "short",
     "workbench.layoutControl.enabled": false,
     "workbench.productIconTheme": "fluent-icons",
-    
+
     // Explorer
     "explorer.compactFolders": false,
     "explorer.sortOrder": "foldersNestsFiles",
@@ -41,25 +41,44 @@
         ".env.local": ".env*",
         ".env": ".env*",
     },
-    
+
     // Terminal
-    "terminal.integrated.profiles.windows":{"Git Bash":{"path":"C:\\Program Files\\Git\\bin\\bash.exe"},  },
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "icon": "terminal-cmd"
+        },
+        "GitBash": {
+            "source": "Git Bash",
+            "path": [
+                "C:\\Program Files\\Git\\bin\\bash.exe"
+            ],
+            "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "GitBash",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "files.associations": {
-      ".env.*": "dotenv",
-      ".prettierrc": "json",
-      "*.css": "css"
+        ".env.*": "dotenv",
+        ".prettierrc": "json",
+        "*.css": "css"
     },
-    
+
     // Window
     "window.zoomLevel": 0,
     "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "visible",
     "window.newWindowDimensions": "maximized",
     "window.commandCenter": false,
-    
+
     // Symbols
     "symbols.hidesExplorerArrows": false,
     "symbols.folders.associations": {
@@ -85,7 +104,7 @@
 
     // Chat
     "chat.editor.wordWrap": "on",
-    
+
     // APC
     "apc.electron": {
         "titleBarStyle": "hiddenInset",
@@ -106,7 +125,7 @@
         ".monaco-list-row": "border-radius: 4px;",
         ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
     },
-
+    
     // Others
     "breadcrumbs.enabled": false,
     "explorer.confirmDelete": true,
@@ -122,4 +141,5 @@
     "javascript.updateImportsOnFileMove.enabled": "never",
     "files.autoSave": "afterDelay",
     "typescript.updateImportsOnFileMove.enabled": "never",
+    "security.workspace.trust.untrustedFiles": "open",
 }
