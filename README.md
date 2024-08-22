@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/pAzemfC.png" alt="Beginner Dev Frontend & Designer who loves developing a good user experience and interface">
+<img src="https://i.imgur.com/LHxjqwa.png" alt="Beginner Dev Frontend & Designer who loves developing a good user experience and interface">
 <img align='right' src="https://github-readme-stats.vercel.app/api?username=flavioow&show_icons=true&title_color=7F5539&text_color=A68A64&icon_color=783c00&bg_color=EDE0D4&cache_seconds=2300" alt="ilustração do status do github">
 
 <a href="https://github.com/Fh-Shadow" title="Main profile">
