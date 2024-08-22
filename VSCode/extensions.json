@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "drcika.apc-extension",
+        "formulahendry.auto-rename-tag",
+        "castello-dev.bash-snippets",
+        "miguelsolorio.fluent-icons",
+        "leandro-rodrigues.fluent-ui-vscode",
+        "eamodio.gitlens",
+        "ritwickdey.liveserver",
+        "miguelsolorio.min-theme",
+        "loczek.next-js-ts-snippets",
+        "bmewburn.vscode-intelephense-client",
+        "ms-ceintl.vscode-language-pack-pt-br",
+        "prisma.prisma",
+        "miguelsolorio.symbols"
+    ]
+}
