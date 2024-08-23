@@ -12,6 +12,7 @@
         "bmewburn.vscode-intelephense-client",
         "ms-ceintl.vscode-language-pack-pt-br",
         "prisma.prisma",
-        "miguelsolorio.symbols"
+        "miguelsolorio.symbols",
+        "ms-python.python"
     ]
 }
