@@ -8,7 +8,7 @@
 
 <p>Sou brasileiro e estou terminando o ensino médio integrado em informática do Colégio Eniac.</p>
 
-## My skills
+## Minhas habilidades
 <p>Sou um iniciante em programação front-end apaixonado por proporcionar a melhor experiência ao usuário. Busco desempenho, SEO, organização, acessibilidade, responsividade e boas práticas em meus projetos.</p>
 
 <br>
