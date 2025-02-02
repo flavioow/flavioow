@@ -5,7 +5,6 @@
 </a>
 
 ### Olá, eu sou Flávio Henrique!
-
 <p>Sou brasileiro e estou terminando o ensino médio integrado em informática do Colégio Eniac.</p>
 
 ## Minhas habilidades
@@ -36,6 +35,9 @@
 ![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
 
 ## Entre em contato
-
 [![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/flávio-henrique-perusin-de-souza-a51321315)](https://www.linkedin.com/in/flávio-henrique-perusin-de-souza-a51321315)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:flaviohps8@gmail.com)](mailto:flaviohps8@gmail.com)
+
+<p>Veja minha outra conta também:</p>
+
+- **Eniac:** [![GitHub](https://img.shields.io/github/followers/eniac-flavio?label=seguir&style=social)](https://github.com/eniac-flavio)
