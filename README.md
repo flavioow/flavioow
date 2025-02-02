@@ -5,7 +5,6 @@
 </a>
 
 ### Hello, I'm Flávio Henrique!
-
 <p>I'm Brazilian and I'm finishing my high school degree in computer science at Eniac College.</p>
 
 ## My skills
@@ -36,6 +35,9 @@
 ![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
 
 ## Find me
-
 [![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/flávio-henrique-perusin-de-souza-a51321315)](https://www.linkedin.com/in/flávio-henrique-perusin-de-souza-a51321315)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:flaviohps8@gmail.com)](mailto:flaviohps8@gmail.com)
+
+<p>See my other account too:</p>
+
+- **Eniac:** [![GitHub](https://img.shields.io/github/followers/eniac-flavio?label=follow&style=social)](https://github.com/eniac-flavio)
