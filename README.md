@@ -35,7 +35,7 @@
 ![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
 
 ## Find me
-[![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/flávio-henrique-perusin-de-souza-a51321315)](https://www.linkedin.com/in/flávio-henrique-perusin-de-souza-a51321315)
+[![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/flavio-henrique-perusin-de-souza)](https://www.linkedin.com/in/flavio-henrique-perusin-de-souza)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:flaviohps8@gmail.com)](mailto:flaviohps8@gmail.com)
 
 <p>See my other account too:</p>
