@@ -1,8 +1,6 @@
 <img align='right' src="https://github-readme-stats.vercel.app/api?username=flavioow&show_icons=true&title_color=7F5539&text_color=A68A64&icon_color=783c00&bg_color=EDE0D4&cache_seconds=2300" alt="My Status">
 
-<a href="https://github.com/flavioow/flavioow/blob/main/README-pt.md" title="Change Language">
-    <img src="https://img.shields.io/static/v1?label=Veja em&message=Português&color=EDE0D4&style=for-the-badge&logo=GitHub" alt="Language changer">
-</a>
+<a href="https://github.com/flavioow/flavioow/blob/main/README-pt.md" title="Change Language">Ver em Português</a>
 
 ### Hello, I'm Flávio Henrique!
 <p>I'm Brazilian and I'm finishing my high school degree in computer science at Eniac College.</p>
@@ -35,7 +33,7 @@
 ![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)
 
 ## Find me
-[![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/flavio-henrique-perusin-de-souza)](https://www.linkedin.com/in/flavio-henrique-perusin-de-souza)
+[![Linkedin](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/flavioow)](https://www.linkedin.com/in/flavioow)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:flaviohps8@gmail.com)](mailto:flaviohps8@gmail.com)
 
 <p>See my other account too:</p>
